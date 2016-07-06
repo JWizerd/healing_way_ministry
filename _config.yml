@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /healing-way-ministry
+exclude: ['README.md']
