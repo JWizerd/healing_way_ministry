@@ -77,7 +77,6 @@
 ****************************/
 	h1, h2, h3, h4 {
 		font-family: 'Amatic SC', cursive;
-		margin-bottom: 15px;
 	}
 
 	h1 {
@@ -205,6 +204,13 @@
 		right: 20px;
 	}
 
+	#hw-title {
+		position:relative;
+		font-size: 100px;
+		top: 20px;
+
+	}
+
 	#copy {
 		position:absolute;
 		bottom: 5px;
@@ -234,7 +240,7 @@
 	#footer-nav li {
 		width: 20%;
 		text-align: center;
-		margin-top: 8px;
+		margin-top: 2px;
 	}
 
 	#footer p {
@@ -257,37 +263,37 @@
 8.0 MEDIA
 ****************************/
 @media screen and (max-width: 400px) {
-	#header-content {
-		width: 75%;
-		height: 90vh;
-	}
-	#footer-nav {
-		flex-direction: column;
-		align-content: center;
-	}
-	#footer-nav li {
-		width: 100%;
-		padding-top: 10px;
-	}
-	#footer-nav li:nth-child(even) {
-		background-color: #ededed;
-	}
 }
-@media screen and (min-width: 401px) and (max-width: 650px) {
+@media screen and (max-width: 650px) {
 	#footer-nav {
 		flex-direction: column;
 	}
 
 	#footer-nav li {
 		width: 100%;
-		padding-top: 10px;
+	}
+	#footer-nav li h2 {
+		margin-bottom: 0;
 	}
 	
 	#footer-nav li:nth-child(even) {
 		background-color: #ededed;
+		border-top: 2px solid #bababa;
+		border-bottom: 2px solid #bababa;
+	}
+	#hw-title {
+		font-size: 40px;
+		float:right;
+		top: 28px;
+		right: 20px;
+	}
+	#hw-logo {
+		display: none;
 	}
 }
 @media screen and (min-width: 651px) and (max-width: 1000px) {
-
+	#hw-title {
+		font-size: 70px;
+	}
 
 }
