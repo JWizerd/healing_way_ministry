@@ -1,0 +1,9 @@
+<ul>
+{% for event in site.data.events %}
+  <li>
+    <strong>{{ event.title }}</strong>
+    <p>{{ event.date }}</p>
+    <p>{{ event.description }}</p>
+  </li>
+{% endfor %}
+</ul>

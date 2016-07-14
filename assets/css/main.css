@@ -224,6 +224,20 @@
 5.0 MAIN CONTENT
 ****************************/
 
+.about {
+	height: 71vh;
+	width: 93vw;
+	border-radius: 10px;
+	background: #fff;
+	opacity: .7;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	bottom: 70px;
+	-webkit-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+}
 
 /****************************
 6.0 FOOTER
@@ -254,10 +268,6 @@
 		font-size: 14px;
 		text-align: center;
 	}
-/****************************
-7.0 RESUME
-****************************/
-
 
 /****************************
 8.0 MEDIA

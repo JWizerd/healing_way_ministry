@@ -3,6 +3,7 @@
     "title" : "title of event",
     "date" : "March 15, 2016 @ 8:00 P.M.",
     "img" : "../assets/images/",
-    "img_title" : "image title will be placed in alt tag"
+    "img_title" : "image title will be placed in alt tag",
+    "description" : "here is basic description for an event."
   }
 ]
