@@ -5,6 +5,7 @@
 *	2.0 - TYPOGRAPHY
 *	3.0 - GENERAL
 *	4.0 - HEADER
+		4.1 - BG IMAGES
 * 5.0 - MAIN CONTENT
 *	6.0 - FOOTER
 * 7.0 - RESUME
@@ -118,11 +119,14 @@
 /****************************
 4.0 HEADER
 ****************************/
+	.home-image {
+		background: url("../images/healing-way.jpg") center center no-repeat;
+		background-size: cover;
+	}
+
 	.header {
 		font-family: "Amatic SC", cursive;
-	  background: url("../images/healing-way.jpg") center center no-repeat;
     text-align: center;
-    background-size: cover;
     width: 100%;
     height: 93vh;
   }
@@ -133,8 +137,6 @@
 	}
 
 	.header-content {
-		position: relative;
-		top: 15%;
 		-webkit-text-shadow: 2px 1px 2px rgba(000, 000, 000, 0.7);
 		-moz-text-shadow: 2px 1px 2px rgba(000, 000, 000, 0.7);
 		text-shadow: 2px 1px 2px rgba(000, 000, 000, 0.7);
@@ -225,12 +227,19 @@
 
 	#copy {
 		position:absolute;
-		bottom: 5px;
+		bottom: 0;
 		left: 4px;
 		font-size:14px;
 		font-weight: 400;
 		font-family: "Roboto", sans-serif;
+		color: #a8a8a8;
+		text-shadow: none;
+		padding-top: 15px;
 	}
+
+/****************************
+4.1 BG IMAGES
+****************************/
 
 /****************************
 5.0 MAIN CONTENT
@@ -323,6 +332,10 @@
 @media screen and (max-width: 875px) {
 	#hw-logo {
 		display: none;
+	}
+
+	#copy {
+		font-size: 12px;
 	}
 }
 
