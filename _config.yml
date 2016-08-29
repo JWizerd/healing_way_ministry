@@ -1,2 +1,10 @@
-markdown: redcarpet
-exclude: ['README.md']
+title: Healing Way Ministry Church | Greeley, CO
+description: > # Healing Way Ministry is a passionate young church that is driven to spread the word of jesus to all ages and cultures!
+baseurl: "/healing_way_ministry" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+github_username:  jwizerd
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass
