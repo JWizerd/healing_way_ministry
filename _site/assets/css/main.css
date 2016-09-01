@@ -2281,7 +2281,7 @@ EVENTS
 /* ====================
 SERMONS
 ==================== */
-#sermons { background: url("../images/bg-sermons.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
+#sermons { background: url("../images/bg-sermons-woman.jpg") center center no-repeat; background-size: cover; background-attachment: fixed; width: 100%; color: #f9f9f9; text-align: center; }
 
 #sermons h2, #sermons h3 { color: #3e3e3e; }
 

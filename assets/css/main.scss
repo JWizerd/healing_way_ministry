@@ -177,8 +177,9 @@ SERMONS
 ==================== */
 
 #sermons {
-  background: url('../images/bg-sermons.jpg') center 80% no-repeat;
+  background: url('../images/bg-sermons-woman.jpg') center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   color: $cloudy;
   text-align: center;
