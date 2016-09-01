@@ -75,7 +75,10 @@ header {
 
 nav {
   width: 100%;
-  text-align: center;
+}
+
+nav ul {
+  padding: 10px;
 }
 
 nav ul li {
@@ -124,5 +127,11 @@ MEDIA QUERIES
   header {
     height: 600px;
     max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
   }
 }
