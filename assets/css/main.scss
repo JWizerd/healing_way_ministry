@@ -19,16 +19,19 @@
   - form
 = DONATE
 = MEDIA QUERIES
-  - header
 */
 
 /* ====================
 GENERAL: default styles, typography and reusable css classes
 ==================== */
 
+$cloudy: #f9f9f9;
+$rosey: #c71a00;
+$smokey: #3e3e3e;
+
 body {
   font: 400 20px "Droid Serif", serif;
-  background-color: #f9f9f9;
+  background-color: $cloudy;
 }
 
 a {
@@ -42,6 +45,10 @@ a:hover {
   -moz-transition: ease-out .3s;
   transition: ease-out .3s;
   color: #c71a00;
+  text-decoration: none;
+}
+
+a:visited, a:focus {
   text-decoration: none;
 }
 
@@ -73,6 +80,8 @@ header {
   height: 400px;
 }
 
+/* header navigation */
+
 nav {
   width: 100%;
 }
@@ -88,14 +97,25 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: $cloudy;
 }
-
-/* header navigation */
 
 /* ====================
 HERO: healing way ministry title and scipture
 ==================== */
+
+.hero {
+  text-align: center;
+}
+
+.site-title {
+  font-size: 3.5em;
+}
+
+.hero strong {
+  display: block;
+}
+
 
 /* ====================
 ABOUT
@@ -121,8 +141,6 @@ DONATE
 MEDIA QUERIES
 ==================== */
 
-/* header */
-
 @media screen and (min-width: 1100px) {
   header {
     height: 600px;
@@ -130,8 +148,26 @@ MEDIA QUERIES
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .site-title {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
 @media screen and (max-width: 500px) {
   nav ul {
     text-align: center;
+  }
+  .site-title {
+    font-size: 1.7em;
+  }
+  p {
+    font-size: .7em;
   }
 }
