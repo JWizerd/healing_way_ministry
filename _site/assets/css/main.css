@@ -2246,7 +2246,7 @@ a:visited, a:focus { text-decoration: none; }
 /* ====================
 HEADER
 ==================== */
-header { background: url("../images/bg-header.png") center 80% no-repeat; background-size: cover; width: 100%; height: 400px; }
+header { background: url("../images/bg-header.jpg") center 80% no-repeat; background-size: cover; width: 100%; height: 400px; }
 
 /* header navigation */
 nav { width: 100%; }
@@ -2267,7 +2267,7 @@ HERO: healing way ministry title and scipture
 /* ====================
 ABOUT
 ==================== */
-.about { background: url("../images/bg-cross.png") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
+.about { background: url("../images/bg-cross.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
 
 .address { margin-bottom: 20px; }
 
@@ -2283,6 +2283,10 @@ EVENTS
 /* ====================
 SERMONS
 ==================== */
+.sermons { background: url("../images/bg-sermons.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
+
+.sermons h2, .sermons h3 { color: #3e3e3e; }
+
 /* ====================
 CONTACT
 ==================== */
