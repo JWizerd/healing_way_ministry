@@ -231,6 +231,7 @@ input, textarea {
   color: $smokey;
   width: 90%;
   margin: 0 auto 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 textarea:focus, input:focus{
@@ -248,6 +249,11 @@ footer {
 #donate {
   color: $cloudy;
   text-align: center;
+  position: relative;
+}
+
+#donate p {
+  margin: 50px 20px;
 }
 
 .btn-donate {
