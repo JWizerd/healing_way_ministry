@@ -177,7 +177,8 @@ SERMONS
 ==================== */
 
 #sermons {
-  background: url('../images/bg-sermons-woman.jpg') center center no-repeat;
+  background: url('../images/bg-sermons-woman.jpg') no-repeat;
+  background-position: 70% center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -313,6 +314,9 @@ MEDIA QUERIES
   }
   h3 {
     font-size: 1.2em;
+  }
+  #about {
+    background-position: left 40% center;
   }
 }
 
