@@ -33,6 +33,8 @@ $sky: #4267b2;
 body {
   font: 400 20px "Droid Serif", serif;
   background-color: $cloudy;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 section {

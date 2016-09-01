@@ -2217,7 +2217,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* ====================
 GENERAL: default styles, typography and reusable css classes
 ==================== */
-body { font: 400 20px "Droid Serif", serif; background-color: #f9f9f9; }
+body { font: 400 20px "Droid Serif", serif; background-color: #f9f9f9; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 section { padding: 25px 0; }
 
