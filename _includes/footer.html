@@ -1,22 +1,19 @@
 <footer class="container-fluid">
   <div class="row">
-    <div class="col-sm-6 contact">
+    <div class="col-sm-6" id="contact">
       <h3>Need Prayer? Want to connect with us? <strong>Leave us a message!</strong></h3>
-      <form action="" method="post">
-        <label for="name">
+      <form action="https://formspree.io/jwodke@outlook.com" method="post">
+        <label for="name" class="sr-only"></label>
           <input type="text" id="name" placeholder="Name (Last Name is Optional)">
-        </label>
-        <label for="email">
-          <input type="email" id="email" placeholder="Email Address">
-        </label>
-        <label for="message">
-          <textarea type="message" id="message" rows="5"></textarea>
-        </label>
+        <label for="email" class="sr-only"></label>
+          <input name="_replyto" type="email" id="email" placeholder="Email Address">
+        <label for="message" class="sr-only"></label>
+          <textarea name="message" type="message" id="message" rows="5"></textarea>
         <input type="submit" value="Send Message">
       </form>
     </div>
     <section>
-      <div class="col-sm-6 donate">
+      <div class="col-sm-6" id="donate">
         <h2>Donate</h2>
         <p>Every dontation we receive helps our church grow and helps bring people closer to the Holy Spirit. Your donation to our church makes a big difference.</p>
         <a href="" class="btn-donate" role="button">Donate Today!</a>

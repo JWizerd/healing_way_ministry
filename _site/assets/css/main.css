@@ -2258,14 +2258,14 @@ nav ul li a { color: #f9f9f9; }
 /* ====================
 HERO: healing way ministry title and scipture
 ==================== */
-.hero { text-align: center; }
+#hero { text-align: center; }
 
 .site-title { font-size: 3.5em; }
 
 /* ====================
 ABOUT
 ==================== */
-.about { background: url("../images/bg-cross.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
+#about { background: url("../images/bg-cross.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
 
 .address { margin-bottom: 20px; }
 
@@ -2276,29 +2276,27 @@ ABOUT
 /* ====================
 EVENTS
 ==================== */
-.events { background-color: #4267b2; color: #f9f9f9; text-align: center; }
+#events { background-color: #4267b2; color: #f9f9f9; text-align: center; }
 
 /* ====================
 SERMONS
 ==================== */
-.sermons { background: url("../images/bg-sermons.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
+#sermons { background: url("../images/bg-sermons.jpg") center 80% no-repeat; background-size: cover; width: 100%; color: #f9f9f9; text-align: center; }
 
-.sermons h2, .sermons h3 { color: #3e3e3e; }
+#sermons h2, #sermons h3 { color: #3e3e3e; }
 
 /* ====================
 CONTACT
 ==================== */
-.contact { background: url("../images/bg-prayer.jpg") center 80% no-repeat; background-size: cover; color: #f9f9f9; text-align: center; padding-top: 20px; padding-bottom: 20px; }
+#contact { background: url("../images/bg-prayer.jpg") center 80% no-repeat; background-size: cover; color: #f9f9f9; text-align: center; padding-top: 20px; padding-bottom: 20px; }
 
 /* form
 */
-label { display: block; width: 90%; margin: 0 auto 20px auto; }
-
 input[type="submit"] { width: 165px; background-color: #c8932f; color: #f9f9f9; font-weight: 700; -webkit-transition: ease-out .3s; -moz-transition: ease-out .3s; transition: ease-out .3s; border: none; }
 
 input[type="submit"]:hover { -webkit-transition: ease .3s; -moz-transition: ease .3s; transition: ease .3s; background-color: #4267b2; }
 
-input, textarea { width: 100%; border-radius: 10px; border: 3px solid #c8932f; padding: 15px; color: #3e3e3e; }
+input, textarea { width: 100%; border-radius: 10px; border: 3px solid #c8932f; padding: 15px; color: #3e3e3e; width: 90%; margin: 0 auto 20px auto; }
 
 textarea:focus, input:focus { outline: none; }
 
@@ -2307,7 +2305,7 @@ DONATE
 ==================== */
 footer { background-color: #c8932f; }
 
-.donate { color: #f9f9f9; text-align: center; }
+#donate { color: #f9f9f9; text-align: center; }
 
 .btn-donate { background-color: #4267b2; padding: 26px 0; display: block; font-size: 30px; color: #f9f9f9; width: 59%; margin: 0 auto; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-transition: ease-out .3s; -moz-transition: ease-out .3s; transition: ease-out .3s; }
 
