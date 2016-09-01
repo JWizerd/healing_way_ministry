@@ -28,15 +28,29 @@ GENERAL: default styles, typography and reusable css classes
 $cloudy: #f9f9f9;
 $rosey: #c71a00;
 $smokey: #3e3e3e;
+$sky: #4267b2;
 
 body {
   font: 400 20px "Droid Serif", serif;
   background-color: $cloudy;
 }
 
+section {
+  padding: 25px 0;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
 h2 {
   font-size: 2em;
-  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 25px;
 }
 
 strong {
@@ -83,6 +97,7 @@ a:visited, a:focus {
   -moz-text-shadow: 1px 1px 5px #333;
   text-shadow: 1px 1px 5px #333;
 }
+
 /* ====================
 HEADER
 ==================== */
@@ -151,13 +166,19 @@ ABOUT
 .general-info {
   padding: 25px;
   border: 3px solid #fff;
-  margin-bottom: 20px;
 }
 
 
 /* ====================
-EVENTS: upcoming events. IMPORTANT! read bootstrap docs about .row and .col css classes https://getbootstrap.com/css/#grid to understand structuring of this section. Failure to do so will break the layout!
+EVENTS
 ==================== */
+
+.events {
+  background-color: $sky;
+  color: $cloudy;
+  text-align: center;
+}
+
 
 /* ====================
 SERMONS
@@ -195,6 +216,9 @@ MEDIA QUERIES
   h2 {
     font-size: 1.5em;
   }
+  h3 {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -206,6 +230,10 @@ MEDIA QUERIES
   }
   h2 {
     font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: .9em;
   }
   p {
     font-size: .7em;

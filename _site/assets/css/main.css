@@ -2219,7 +2219,13 @@ GENERAL: default styles, typography and reusable css classes
 ==================== */
 body { font: 400 20px "Droid Serif", serif; background-color: #f9f9f9; }
 
-h2 { font-size: 2em; padding-bottom: 10px; }
+section { padding: 25px 0; }
+
+h1, h2, h3 { margin-top: 0; }
+
+h2 { font-size: 2em; margin-bottom: 25px; }
+
+h3 { font-size: 1.5em; margin-bottom: 25px; }
 
 strong { display: block; }
 
@@ -2267,11 +2273,13 @@ ABOUT
 
 .services { text-transform: uppercase; text-decoration: underline; margin-bottom: 5px; }
 
-.general-info { padding: 25px; border: 3px solid #fff; margin-bottom: 20px; }
+.general-info { padding: 25px; border: 3px solid #fff; }
 
 /* ====================
-EVENTS: upcoming events. IMPORTANT! read bootstrap docs about .row and .col css classes https://getbootstrap.com/css/#grid to understand structuring of this section. Failure to do so will break the layout!
+EVENTS
 ==================== */
+.events { background-color: #4267b2; color: #f9f9f9; text-align: center; }
+
 /* ====================
 SERMONS
 ==================== */
@@ -2287,8 +2295,10 @@ MEDIA QUERIES
 @media screen and (min-width: 1100px) { header { height: 600px; max-height: 600px; } }
 @media screen and (max-width: 1000px) { .site-title { font-size: 3em; } }
 @media screen and (max-width: 654px) { .site-title { font-size: 2em; }
-  h2 { font-size: 1.5em; } }
+  h2 { font-size: 1.5em; }
+  h3 { font-size: 1.2em; } }
 @media screen and (max-width: 500px) { nav ul { text-align: center; }
   .site-title { font-size: 1.7em; }
   h2 { font-size: 1.2em; }
+  h3 { font-size: .9em; }
   p { font-size: .7em; } }
