@@ -30,6 +30,10 @@ $rosey: #c71a00;
 $smokey: #3e3e3e;
 $sky: #4267b2;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 400 20px "Droid Serif", serif;
   background-color: $cloudy;
@@ -80,18 +84,6 @@ a:hover {
 
 a:visited, a:focus {
   text-decoration: none;
-}
-
-.transition-in {
-  -webkit-transition: ease .3s;
-  -moz-transition: ease .3s;
-  transition: ease .3s;
-}
-
-.transition-out {
-  -webkit-transition: ease-out .3s;
-  -moz-transition: ease-out .3s;
-  transition: ease-out .3s;
 }
 
 .shadow-text {
@@ -200,11 +192,94 @@ SERMONS
 CONTACT
 ==================== */
 
+.contact {
+  background: url('../images/bg-prayer.jpg') center 80% no-repeat;
+  background-size: cover;
+  color: $cloudy;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+/*
+ form
+*/
+
+label {
+  display: block;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+input[type="submit"] {
+  width: 165px;
+  background-color: #c8932f;
+  color: $cloudy;
+  font-weight: 700;
+  -webkit-transition: ease-out .3s;
+  -moz-transition: ease-out .3s;
+  transition: ease-out .3s;
+  border:none;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: ease .3s;
+  -moz-transition: ease .3s;
+  transition: ease .3s;
+  background-color: $sky;
+}
+
+input, textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #c8932f;
+  padding: 15px;
+  color: $smokey;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
 
 /* ====================
 DONATE
 ==================== */
+
+footer {
+  background-color: #c8932f;
+}
+
+.donate {
+  color: $cloudy;
+  text-align: center;
+}
+
+.btn-donate {
+  background-color: $sky;
+  padding: 26px 0;
+  display: block;
+  font-size: 30px;
+  color: $cloudy;
+  width: 59%;
+  margin: 0 auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: ease-out .3s;
+  -moz-transition: ease-out .3s;
+  transition: ease-out .3s;
+}
+
+.btn-donate:hover {
+  color: $cloudy;
+  background-color: $rosey;
+  -webkit-transition: ease .3s;
+  -moz-transition: ease .3s;
+  transition: ease .3s;
+}
+.donate p {
+  margin-bottom: 40px;
+}
 
 /* ====================
 MEDIA QUERIES
@@ -220,6 +295,9 @@ MEDIA QUERIES
 @media screen and (max-width: 1000px) {
   .site-title {
     font-size: 3em;
+  }
+  .btn-donate {
+    font-size: 25px;
   }
 }
 
