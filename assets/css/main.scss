@@ -255,7 +255,7 @@ footer {
 }
 
 #donate p {
-  margin: 50px 20px;
+  margin: 80px 20px;
 }
 
 .btn-donate {
@@ -265,7 +265,7 @@ footer {
   font-size: 30px;
   color: $cloudy;
   width: 59%;
-  margin: 0 auto;
+  margin: 90px auto 0 auto;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -289,7 +289,14 @@ footer {
 MEDIA QUERIES
 ==================== */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1300px) {
+  header {
+    height: 700px;
+    max-height: 700px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
   header {
     height: 600px;
     max-height: 600px;
