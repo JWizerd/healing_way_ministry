@@ -2283,7 +2283,9 @@ SERMONS
 ==================== */
 #sermons { background: url("../images/bg-sermons-woman.jpg") no-repeat; background-position: 70% center; background-size: cover; background-attachment: fixed; width: 100%; color: #f9f9f9; text-align: center; }
 
-#sermons h2, #sermons h3 { color: #3e3e3e; }
+#sermons h2, #sermons h3, #sermons span { color: #3e3e3e; }
+
+#sermons iframe { width: 50%; height: 350px; }
 
 /* ====================
 CONTACT
@@ -2320,13 +2322,16 @@ MEDIA QUERIES
 ==================== */
 @media screen and (min-width: 1100px) { header { height: 600px; max-height: 600px; } }
 @media screen and (max-width: 1000px) { .site-title { font-size: 3em; }
-  .btn-donate { font-size: 25px; } }
+  .btn-donate { font-size: 25px; }
+  #sermons iframe { width: 70%; height: 350px; } }
 @media screen and (max-width: 654px) { .site-title { font-size: 2em; }
   h2 { font-size: 1.5em; }
   h3 { font-size: 1.2em; }
-  #about { background-position: left 40% center; } }
+  #about { background-position: left 40% center; }
+  #sermons iframe { width: 80%; height: 350px; } }
 @media screen and (max-width: 500px) { nav ul { text-align: center; }
   .site-title { font-size: 1.7em; }
   h2 { font-size: 1.2em; }
   h3 { font-size: .9em; }
-  p { font-size: .7em; } }
+  p { font-size: .7em; }
+  #sermons iframe { width: 90%; height: 350px; } }

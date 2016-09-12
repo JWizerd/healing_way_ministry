@@ -186,8 +186,13 @@ SERMONS
   text-align: center;
 }
 
-#sermons h2, #sermons h3 {
+#sermons h2, #sermons h3 , #sermons span{
   color: $smokey;
+}
+
+#sermons iframe {
+  width: 50%;
+  height: 350px;
 }
 
 /* ====================
@@ -303,6 +308,10 @@ MEDIA QUERIES
   .btn-donate {
     font-size: 25px;
   }
+  #sermons iframe {
+    width: 70%;
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 654px) {
@@ -317,6 +326,10 @@ MEDIA QUERIES
   }
   #about {
     background-position: left 40% center;
+  }
+  #sermons iframe {
+    width: 80%;
+    height: 350px;
   }
 }
 
@@ -336,5 +349,9 @@ MEDIA QUERIES
   }
   p {
     font-size: .7em;
+  }
+  #sermons iframe {
+    width: 90%;
+    height: 350px;
   }
 }
