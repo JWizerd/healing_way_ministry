@@ -2309,9 +2309,9 @@ footer { background-color: #c8932f; }
 
 #donate { color: #f9f9f9; text-align: center; position: relative; }
 
-#donate p { margin: 50px 20px; }
+#donate p { margin: 80px 20px; }
 
-.btn-donate { background-color: #4267b2; padding: 26px 0; display: block; font-size: 30px; color: #f9f9f9; width: 59%; margin: 0 auto; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-transition: ease-out .3s; -moz-transition: ease-out .3s; transition: ease-out .3s; }
+.btn-donate { background-color: #4267b2; padding: 26px 0; display: block; font-size: 30px; color: #f9f9f9; width: 59%; margin: 90px auto 0 auto; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-transition: ease-out .3s; -moz-transition: ease-out .3s; transition: ease-out .3s; }
 
 .btn-donate:hover { color: #f9f9f9; background-color: #c71a00; -webkit-transition: ease .3s; -moz-transition: ease .3s; transition: ease .3s; }
 
@@ -2320,7 +2320,8 @@ footer { background-color: #c8932f; }
 /* ====================
 MEDIA QUERIES
 ==================== */
-@media screen and (min-width: 1100px) { header { height: 600px; max-height: 600px; } }
+@media screen and (min-width: 1300px) { header { height: 700px; max-height: 700px; } }
+@media screen and (min-width: 1100px) and (max-width: 1299px) { header { height: 600px; max-height: 600px; } }
 @media screen and (max-width: 1000px) { .site-title { font-size: 3em; }
   .btn-donate { font-size: 25px; }
   #sermons iframe { width: 70%; height: 350px; } }
